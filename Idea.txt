@@ -1,0 +1,19 @@
+
+PROJECT 
+Ideas-
+Apne college ka marketplace
+with lost and found features
+
+learn:-
+
+
+Tailwind
+bootstrap(raj)
+html
+css
+scss
+typescript
+javascript
+figma(raj)
+git framework
+
