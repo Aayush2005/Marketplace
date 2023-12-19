@@ -17,3 +17,9 @@ javascript
 figma(raj)
 git framework
 
+Angella ji(source)
+tailwind(Aayush)
+SQL(Raj)
+basics of JS(Aayush and Raj)
+logo (Aayush)
+Figma(Raj)
