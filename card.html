@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .card-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 100px 30px;
+            
+
+        }
+
+        .card{
+            width: 325px;
+            background-color: #f4f4f4;
+            box-shadow: 0px 2px 4px rgba( 0, 0, 0, 0.3);
+            overflow: hidden;
+            border-radius: 5px;
+            transition: transform 0.6s ease;
+        }
+        .card:hover{
+            transform: translateY(-20px);
+        }
+        .card .card-image{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+
+        }
+        .card-content{
+            padding: 20px;
+        }
+        .card-content h4{
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .card-content p{
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .card-content h5{
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="./assest/image/dog-img.jpg" alt="..." class="card-image">
+            <div class="card-content">
+                <h4>2500/-</h4>
+                <h5>Dog</h5>
+                <p>The Golden Retriever is a Scottish breed of retriever dog of medium size. It is characterised by a gentle and affectionate nature and a striking golden coat. </p>
+                <a href="instagram.com"><img src="./assest/svg/instagram.svg" alt="..." class="svg" height="30"></a>
+                <a href="whatsapp.com"><img src="./assest/svg/whatsapp.svg" alt="..." class="svg" height="30"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
